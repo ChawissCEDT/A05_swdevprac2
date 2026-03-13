@@ -9,15 +9,15 @@ export default function Card({
   imgSrc: string;
 }) {
   return (
-    // ใช้ InteractiveCard เป็นตัวนอกสุด
+
     <InteractiveCard contentName={venueName}>
-        {/* ส่วนประกอบข้างในยังคงเป็น Server Component ได้ */}
+  
         <div className="w-full h-[70%] relative">
             <Image
                 src={imgSrc}
                 alt="Venue Picture"
                 fill={true}
-                className="object-cover rounded-t-lg" // เพิ่ม rounded-t เพื่อให้รูปมนตามกล่อง
+                className="object-cover rounded-t-lg"
             />
         </div>
 
