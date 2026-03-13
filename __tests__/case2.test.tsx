@@ -1,6 +1,6 @@
 import '@testing-library/jest-dom'
 import { render, screen } from '@testing-library/react'
-import Card from '@/components/Card'
+import Card from '@/components/ProductCard'
 import InteractiveCard from '@/components/InteractiveCard'
 import Page from '@/app/booking/page'
 import DateReserve from '@/components/DateReserve'

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Banner from "@/components/Banner";
-import Card from "@/components/Card";
+import Card from "@/components/ProductCard";
 import styles from "./page.module.css";
 
 export default function Home() {
